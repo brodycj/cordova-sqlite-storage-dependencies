@@ -1,14 +1,14 @@
 {
-  "name": "cordova-sqlite-xxx-deps",
-  "version": "0.0.1-xxx",
-  "description": "Cordova sqlite XXX dependencies",
+  "name": "cordova-sqlite-common-dev-deps",
+  "version": "0.0.1-common-dev",
+  "description": "Cordova sqlite XXX common-dev dependencies",
   "main": "404.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brodybits/Cordova-sqlite-xxx-deps.git"
+    "url": "git+https://github.com/brodybits/Cordova-sqlite-common-dev-deps.git"
   },
   "keywords": [
     "cordova",
@@ -18,7 +18,7 @@
   "author": "Christopher J. Brody",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/brodybits/Cordova-sqlite-xxx-deps/issues"
+    "url": "https://github.com/brodybits/Cordova-sqlite-common-dev-deps/issues"
   },
-  "homepage": "https://github.com/brodybits/Cordova-sqlite-xxx-deps#readme"
+  "homepage": "https://github.com/brodybits/Cordova-sqlite-common-dev-deps#readme"
 }

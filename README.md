@@ -1,4 +1,4 @@
-# Cordova sqlite XXX dependencies
+# Cordova sqlite XXX common-dev dependencies
 
 AUTHOR: Christopher J. Brody
 
