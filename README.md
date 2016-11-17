@@ -10,11 +10,13 @@ Contains source and object code built from:
 - [liteglue / Android-sqlite-connector](https://github.com/liteglue/Android-sqlite-connector) (Unlicense, public domain)
 
 This project provides the following dependencies needed to build [litehelpers / Cordova-sqlite-storage](https://github.com/litehelpers/Cordova-sqlite-storage):
-- `sqlite3.h`, `sqlite3.c` - SQLite `3.8.10.2` amalgamation needed to build iOS and Windows versions
-- `libs` - [liteglue / Android-sqlite-connector](https://github.com/liteglue/Android-sqlite-connector) JAR and [liteglue / Android-sqlite-native-driver](https://github.com/liteglue/Android-sqlite-native-driver) NDK libraries built with SQLite `3.8.10.2` amalgamation, with the following flags:
+- `sqlite3.h`, `sqlite3.c` - SQLite `3.15.1` amalgamation needed to build iOS and Windows versions
+- `libs` - [liteglue / Android-sqlite-connector](https://github.com/liteglue/Android-sqlite-connector) JAR and [liteglue / Android-sqlite-native-driver](https://github.com/liteglue/Android-sqlite-native-driver) NDK libraries built with SQLite `3.15.1` amalgamation, with the following flags:
  - `-DSQLITE_TEMP_STORE=2`
  - `-DSQLITE_THREADSAFE=2`
  - `-DSQLITE_ENABLE_FTS3`
  - `-DSQLITE_ENABLE_FTS3_PARENTHESIS`
  - `-DSQLITE_ENABLE_FTS4`
  - `-DSQLITE_ENABLE_RTREE`
+ - `-DSQLITE_DEFAULT_PAGE_SIZE=1024`
+ - `-DSQLITE_DEFAULT_CACHE_SIZE=2000`
