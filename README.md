@@ -11,7 +11,7 @@ Contains source and object code built from:
 
 This project provides the following dependencies needed to build [litehelpers / Cordova-sqlite-storage](https://github.com/litehelpers/Cordova-sqlite-storage):
 - `sqlite3.h`, `sqlite3.c` - SQLite `3.15.2` amalgamation needed to build iOS and Windows versions
-- `libs` - [liteglue / Android-sqlite-connector](https://github.com/liteglue/Android-sqlite-connector) JAR and [liteglue / Android-sqlite-native-driver](https://github.com/liteglue/Android-sqlite-native-driver) NDK libraries built with SQLite `3.15.2` amalgamation, with the following flags:
+- `libs` - [liteglue / Android-sqlite-connector](https://github.com/liteglue/Android-sqlite-connector) and [liteglue / Android-sqlite-native-driver](https://github.com/liteglue/Android-sqlite-native-driver) JAR libraries built with SQLite `3.15.2` amalgamation, with the following flags:
  - `-DSQLITE_THREADSAFE=1`
  - `-DSQLITE_DEFAULT_MEMSTATUS=0`
  - `-DSQLITE_OMIT_DECLTYPE`
