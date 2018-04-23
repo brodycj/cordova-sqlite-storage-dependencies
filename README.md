@@ -2,14 +2,16 @@
 
 **AUTHOR:** Christopher J. Brody
 
-**LICENSE:** [Unlicense (unlicense.org)](http://unlicense.org/) (public domain)
+**LICENSE:** MIT for `sql-memory-growth.js` ([kripken / sql.js](https://github.com/kripken/sql.js)); [Unlicense (unlicense.org)](http://unlicense.org/) (public domain); other public domain
 
 Contains source and object code built from:
+- [kripken / sql.js](https://github.com/kripken/sql.js) (MIT license)
 - SQLite3 from [sqlite.org](http://sqlite.org/) (public domain)
 - [liteglue / Android-sqlite-native-driver](https://github.com/liteglue/Android-sqlite-native-driver) (Unlicense, public domain)
 - [brodybits / Android-sqlite-ext-native-driver (sqlite-storage-native-driver branch)](https://github.com/brodybits/Android-sqlite-ext-native-driver/tree/sqlite-storage-native-driver) (Unlicense, public domain)
 
 This project provides the following dependencies needed to build [litehelpers / Cordova-sqlite-storage](https://github.com/litehelpers/Cordova-sqlite-storage):
+- `sql-memory-growth.js` - version of [kripken / sql.js](https://github.com/kripken/sql.js) (SQLite `3.22.0`) for `browser` platform, including solution for "cannot enlarge memory arrays" issue, downloaded from <https://raw.githubusercontent.com/kripken/sql.js/master/js/sql-memory-growth.js>
 - `sqlite3.h`, `sqlite3.c` - SQLite `3.22.0` amalgamation needed to build iOS/macOS and Windows versions
 - `libs` - [liteglue / Android-sqlite-connector](https://github.com/liteglue/Android-sqlite-connector) and [brodybits / Android-sqlite-ext-native-driver (sqlite-storage-native-driver branch)](https://github.com/brodybits/Android-sqlite-ext-native-driver/tree/sqlite-storage-native-driver) JAR libraries built with SQLite `3.22.0` amalgamation, with the following flags:
   - `-DSQLITE_THREADSAFE=1`
