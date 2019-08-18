@@ -25,5 +25,5 @@ This project provides the following dependencies needed to build [litehelpers / 
   - `-DSQLITE_ENABLE_FTS3_PARENTHESIS`
   - `-DSQLITE_ENABLE_FTS4`
   - `-DSQLITE_ENABLE_RTREE`
-  - `-DSQLITE_DEFAULT_PAGE_SIZE=1024`
-  - `-DSQLITE_DEFAULT_CACHE_SIZE=2000`
+  - `-DSQLITE_DEFAULT_PAGE_SIZE=4096`
+  - `-DSQLITE_DEFAULT_CACHE_SIZE=-2000`
