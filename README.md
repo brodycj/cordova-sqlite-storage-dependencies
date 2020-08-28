@@ -9,7 +9,7 @@ Contains source and object code built from:
 - [liteglue / Android-sqlite-connector](https://github.com/liteglue/Android-sqlite-connector) (Unlicense, public domain)
 - [brodybits / Android-sqlite-ext-native-driver (sqlite-storage-native-driver branch)](https://github.com/brodybits/Android-sqlite-ext-native-driver/tree/sqlite-storage-native-driver) (Unlicense, public domain)
 
-This project provides the following dependencies needed to build [litehelpers / Cordova-sqlite-storage](https://github.com/litehelpers/Cordova-sqlite-storage):
+This project provides the following dependencies needed to build [storesafe / cordova-sqlite-storage](https://github.com/storesafe/cordova-sqlite-storage):
 - `sqlite3.h`, `sqlite3.c` - SQLite `3.32.3` amalgamation needed to build iOS/macOS and Windows versions
 - `libs` - [liteglue / Android-sqlite-connector](https://github.com/liteglue/Android-sqlite-connector) and [brodybits / Android-sqlite-ext-native-driver (sqlite-storage-native-driver branch)](https://github.com/brodybits/Android-sqlite-ext-native-driver/tree/sqlite-storage-native-driver) JAR libraries built with SQLite `3.32.3` amalgamation, with the following flags:
   - `-DSQLITE_THREADSAFE=1`
