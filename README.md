@@ -2,18 +2,18 @@
 
 **AUTHOR:** Christopher J. Brody
 
-**LICENSE:** MIT (for `sql-asm-memory-growth.js` built from fork of [kripken / sql.js](https://github.com/kripken/sql.js)); public domain for other artifacts
+**LICENSE:** MIT (for `sql-asm-memory-growth.js` built from fork of [`sql-js/sql.js`](https://github.com/sql-js/sql.js)); public domain for other artifacts
 
 Contains source and object code built from:
-- [storesafe / sql.js](https://github.com/storesafe/sql.js) - fork of [kripken / sql.js](https://github.com/kripken/sql.js) (MIT license)
+- [`storesafe/sql.js`](https://github.com/storesafe/sql.js) - fork of [`sql-js/sql.js`](https://github.com/sql-js/sql.js) (MIT license)
 - SQLite3 from [sqlite.org](http://sqlite.org/) (public domain)
-- [liteglue / Android-sqlite-connector](https://github.com/liteglue/Android-sqlite-connector) (Unlicense, public domain)
-- [brodybits / Android-sqlite-ext-native-driver (sqlite-storage-native-driver branch)](https://github.com/brodybits/Android-sqlite-ext-native-driver/tree/sqlite-storage-native-driver) (Unlicense, public domain)
+- [`liteglue/Android-sqlite-connector`](https://github.com/liteglue/Android-sqlite-connector) (Unlicense, public domain)
+- [`brodybits/Android-sqlite-ext-native-driver` (`sqlite-storage-native-driver` branch)](https://github.com/brodybits/Android-sqlite-ext-native-driver/tree/sqlite-storage-native-driver) (Unlicense, public domain)
 
-This project provides the following dependencies needed to build [storesafe / cordova-sqlite-storage](https://github.com/storesafe/cordova-sqlite-storage):
-- `sql-asm-memory-growth.js` - built from [storesafe / sql.js](https://github.com/storesafe/sql.js) (fork of [kripken / sql.js](https://github.com/kripken/sql.js)) with SQLite `3.22.3` for `browser` platform
-- `sqlite3.h`, `sqlite3.c` - SQLite `3.32.3` amalgamation needed to build iOS/macOS and Windows versions
-- `libs` - [liteglue / Android-sqlite-connector](https://github.com/liteglue/Android-sqlite-connector) and [brodybits / Android-sqlite-ext-native-driver (sqlite-storage-native-driver branch)](https://github.com/brodybits/Android-sqlite-ext-native-driver/tree/sqlite-storage-native-driver) JAR libraries built with SQLite `3.32.3` amalgamation, with the following flags:
+This project provides the following dependencies needed to build [`storesafe/cordova-sqlite-storage`](https://github.com/storesafe/cordova-sqlite-storage):
+- `sql-asm-memory-growth.js` - built from [`storesafe/sql.js`](https://github.com/storesafe/sql.js) (fork of [`sql-js/sql.js`](https://github.com/sql-js/sql.js)) with SQLite `3.22.3` for `browser` platform
+- `sqlite3.h`, `sqlite3.c` - SQLite `3.32.3` amalgamation needed to build iOS, macOS, and Windows platforms
+- `libs` - JAR libraries from [`liteglue/Android-sqlite-connector`](https://github.com/liteglue/Android-sqlite-connector) and [`brodybits/Android-sqlite-ext-native-driver` (`sqlite-storage-native-driver` branch)](https://github.com/brodybits/Android-sqlite-ext-native-driver/tree/sqlite-storage-native-driver), built with SQLite `3.32.3` amalgamation, with the following flags:
   - `-DSQLITE_THREADSAFE=1`
   - `-DSQLITE_DEFAULT_SYNCHRONOUS=3`
   - `-DSQLITE_DEFAULT_MEMSTATUS=0`
