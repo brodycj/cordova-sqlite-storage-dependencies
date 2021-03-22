@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/litehelpers/Cordova-sqlite-storage-dependencies.git"
+    "url": "git+https://github.com/brodybits/cordova-sqlite-storage-dependencies.git"
   },
   "keywords": [
     "cordova",
