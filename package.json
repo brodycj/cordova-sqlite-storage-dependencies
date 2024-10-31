@@ -1,6 +1,6 @@
 {
   "name": "cordova-sqlite-storage-dependencies",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "Cordova sqlite storage dependencies",
   "main": "404.js",
   "scripts": {
